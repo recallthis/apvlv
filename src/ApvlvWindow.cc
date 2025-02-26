@@ -64,7 +64,7 @@ ApvlvWindow::process (int ct, uint key)
     case ctrlValue ('w'):
     case 'k':
     case 'j':
-    case 'h':
+    case 'i':
     case 'l':
       nwin = getNeighbor (ct, key);
       if (nwin != nullptr && nwin != this)
