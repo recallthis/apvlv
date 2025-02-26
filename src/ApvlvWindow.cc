@@ -128,13 +128,13 @@ ApvlvWindow::getNeighbor (int count, uint key)
         case ctrlValue ('w'):
           win = win->getNext ();
           break;
-        case 'k':
+        case 'i':
           win = win->getTop ();
           break;
-        case 'j':
+        case 'k':
           win = win->getBottom ();
           break;
-        case 'h':
+        case 'j':
           win = win->getLeft ();
           break;
         case 'l':
